@@ -18,8 +18,8 @@ return new class extends Migration
                   ->onDelete('cascade');
 
             // Home Fields
-            $table->decimal('home_latitude', 15, 10)->nullable();
-            $table->decimal('home_longitude', 15, 10)->nullable();
+            $table->string('home_latitude')->nullable();
+            $table->string('home_longitude')->nullable();
             $table->float('home_altitude')->nullable();
             $table->float('home_height_limit')->nullable();
             $table->boolean('home_is_home_record')->default(false);

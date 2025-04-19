@@ -59,13 +59,6 @@ return [
             'throw' => false,
             'report' => false,
         ],
-
-        'dji_flight_logs' => [
-            'driver' => 'local',
-            'root' => storage_path('app/dji_logs'),
-            'throw' => false
-        ],
-
     ],
 
     /*

@@ -1,4 +1,4 @@
-name: my-lando-app
+name: propeller-paths
 recipe: laravel
 config:
   webroot: public

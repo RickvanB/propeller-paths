@@ -27,8 +27,8 @@ class FrameHomeData extends Model
     ];
 
     protected $casts = [
-        'home_latitude' => 'decimal:15',
-        'home_longitude' => 'decimal:15',
+        'home_latitude' => 'string',
+        'home_longitude' => 'string',
         'home_altitude' => 'float',
         'home_height_limit' => 'float',
         'home_is_home_record' => 'boolean',

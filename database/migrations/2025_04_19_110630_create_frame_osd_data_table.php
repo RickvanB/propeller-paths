@@ -20,8 +20,8 @@ return new class extends Migration
 
             // OSD Fields (nullable where appropriate)
             $table->float('fly_time')->nullable();
-            $table->decimal('latitude', 15, 10)->nullable(); // High precision for coordinates
-            $table->decimal('longitude', 15, 10)->nullable();// High precision for coordinates
+            $table->string('latitude')->nullable(); // High precision for coordinates
+            $table->string('longitude')->nullable();// High precision for coordinates
             $table->float('height')->nullable();
             $table->float('altitude')->nullable();
             $table->float('vps_height')->nullable();

@@ -47,8 +47,8 @@ class FrameOsdData extends Model
 
     protected $casts = [
         'fly_time' => 'float',
-        'latitude' => 'decimal:15',
-        'longitude' => 'decimal:15',
+        'latitude' => 'string',
+        'longitude' => 'string',
         'height' => 'float',
         'altitude' => 'float',
         'vps_height' => 'float',
